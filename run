@@ -1,0 +1,3 @@
+#!/bin/bash
+mvn clean install
+java -jar target/twitterbot-1.0-SNAPSHOT-jar-with-dependencies.jar String [twitterConsumerKey] [twitterConsumerSecret] [flickrKey] [flickrSecret] [flickrUsername]
